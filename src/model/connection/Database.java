@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class Database {
 	
 	public static Connection getConnection() throws SQLException{
-		Connection con = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/Curso", "SA", "");
+		Connection con = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/Cursos", "SA", "");
 		return con;
 	}
 	
